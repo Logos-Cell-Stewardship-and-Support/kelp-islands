@@ -1,0 +1,26 @@
+{
+  "id": "kelp_rig_v0_1",
+  "name": "Kelp Rig v0.1",
+  "location": "North Sea, repurposed offshore oil rig",
+  "initial_population": 20,
+  "resources": {
+    "kelp_yield_per_cycle": 180,
+    "solar_power_capacity": 300,
+    "tidal_energy_output": 200,
+    "food_reserve": 1000
+  },
+  "infrastructure": {
+    "kelp_farms": 2,
+    "power_nodes": 3,
+    "housing_units": 10
+  },
+  "risk_factors": {
+    "storm_frequency": "medium",
+    "disease_event_probability": 0.1
+  },
+  "success_metrics": {
+    "energy_balance": ">=0",
+    "food_surplus": ">=100",
+    "social_stability": ">=80"
+  }
+}
