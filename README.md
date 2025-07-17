@@ -39,13 +39,12 @@ Governance rounds run on a time cycle using Nomos and Codex
 
 Players move SeaBricks using conviction logic to signal support
 
-Discussions and votes happen over Waku-enabled comms
-
+Discussions and votes happen over Waku-enabled comms and utilize Polis for multi attribute decision making and budgeting. 
 
 
 4. Simulation
 
-The world is frozen and simulated over days, months, or years
+The world is frozen and simulated over months, or years
 
 Simulation considers constraints (energy, food, cohesion, disaster response)
 
@@ -167,7 +166,7 @@ kelp-island/
 
 💡 Background & Origin
 
-Kelp Island draws inspiration from the Seasteading movement and early experiments in floating infrastructure, especially those near San Francisco. The idea of using kelp—one of the fastest carbon-sequestering plants on Earth—as a construction material was born out of this lineage.
+Kelp Island draws inspiration from the Seasteading movement and early experiments in floating infrastructure, especially those near San Francisco. The idea of using kelp, which is one of the fastest growing carbon-sequestering plants on Earth, as a construction material was born out of this lineage.
 
 SeaBricks are real-world, modular, kelp-based building blocks under active development. They are designed to eventually serve as both physical infrastructure and a backing asset for a fully decentralized, stable, and low-carbon currency. Kelp Island exists to model how that currency, and the societies that might use it, could be prototyped digitally first.
 
@@ -194,9 +193,9 @@ It is first and foremost a game. But it’s a game designed for serious play—a
 
 ---
 
-📍 Regional Hodes (Logos Cells)
+📍 Regional Ndes (Logos Cells)
 
-Kelp Island is organized around regional hodes, which function as independent Logos-aligned cells exploring specific geographic or bioregional use cases. Each hode can be run independently, fork shared models, and customize their simulation logic based on local goals.
+Kelp Island is organized around regional nodes, which function as independent Logos-aligned cells exploring specific geographic or bioregional use cases. Each hode can be run independently, fork shared models, and customize their simulation logic based on local goals.
 
 Examples:
 
@@ -205,14 +204,14 @@ Kelp Island: Norway — Simulates life on a refurbished Shell oil rig in the Nor
 Kelp Island: Brazil — Explores sea-based society design off the Brazilian coast
 
 
-Each hode can adapt shared SeaBrick mechanics and reuse simulation components to fit their own imagined or real locations. Hodes can coordinate with each other through Waku and Codex, creating a distributed network of regenerative society prototypes.
+Each node can adapt shared SeaBrick mechanics and reuse simulation components to fit their own imagined or real locations. Nodes can coordinate with each other through Waku and Codex, creating a distributed network of regenerative society prototypes.
 
 
 ---
 
 🔮 Next Steps
 
-[ ] Set up Waku-based onboarding flow
+[ ] Set up onboarding flow
 
 [ ] Create base scenario (Kelp Rig v0.1) in Minecraft fork or Godot
 
